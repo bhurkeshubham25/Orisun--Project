@@ -1,0 +1,72 @@
+.container {
+  width: 1400px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.value-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value-heading{
+  text-align: center;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin-top: 20px;
+  gap: 20px;
+  scroll-margin-top: 100px; 
+  transition: all 0.3s ease;
+}
+.content-section:target {
+  background-color: rgba(207, 103, 156, 0.05);
+  box-shadow: 0 6px 20px rgba(207, 103, 156, 0.2);
+}
+
+.image-wrapper {
+  flex: 1;
+  max-width: 25%;
+  min-width: 25%;
+  height: 300px; /* Fixed height for all image containers */
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 20px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures images don't overflow the container */
+}
+
+.content-image {
+  width: 100%;
+  height: 100%; /* Make image fill the container */
+  object-fit: cover; /* Ensures images maintain aspect ratio while filling space */
+  border-radius: 15px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.text-content {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.description {
+  color: #4a4a4a;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.description strong {
+  color: #d63384;
+  font-weight: bold;
+}
+#sustainability{
+  margin-bottom: 40px;
+}

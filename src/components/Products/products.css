@@ -1,0 +1,54 @@
+.curve-background {
+    background-color: #D476A6;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-top: 60px; 
+}
+.product-section{
+    padding-top: 35px;
+}
+
+.productbanner-heading {
+    flex: 1;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.productbanner-heading .head {
+    font-size: 52px;
+    margin: 0;
+}
+
+.productbanner-heading p {
+    font-size: 35px;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.productbanner-apple {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.apple {
+    overflow: hidden;
+    width: 400px;
+    height: 290px;
+    border-radius: 50%;
+}
+
+.apple img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
